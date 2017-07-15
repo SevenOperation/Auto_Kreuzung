@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Box?>
+<?import javafx.scene.shape.Polygon?>
+<?import java.lang.Double?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AmpelSteuerung">
+ <Circle fx:id="green" centerX="50" centerY="50" fill="90FF92"  radius="20"></Circle>
+ <Circle fx:id="yellow" centerX="50" centerY="50" fill="BLACK"  radius="20" layoutY="50"></Circle>
+ <Circle fx:id="red" centerX="50" centerY="50" fill="BLACK"  radius="20"  layoutY="100"></Circle>
+ <Polygon fx:id="car" fill="DODGERBLUE" layoutX="100" layoutY="200" stroke="BLACK" strokeType="INSIDE">
+ <points>
+ 	<Double fx:value="-50.0" />
+    <Double fx:value="30.0" />
+    
+    <Double fx:value="-50" />
+    <Double fx:value="10.0" />
+
+	<Double fx:value="-10.0" />
+	<Double fx:value="20.0" />
+	
+	
+ </points>
+ </Polygon>
+</AnchorPane>
+
