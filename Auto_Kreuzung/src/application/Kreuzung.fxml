@@ -5,8 +5,9 @@
 <?import javafx.scene.shape.Box?>
 <?import javafx.scene.shape.Polygon?>
 <?import java.lang.Double?>
+<?import javafx.scene.control.Button?>
 
-<AnchorPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AmpelSteuerung">
+<AnchorPane fx:id="screen" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AmpelSteuerung" onKeyPressed="#keyPressed">
  <Circle fx:id="green" centerX="50" centerY="50" fill="90FF92"  radius="20"></Circle>
  <Circle fx:id="yellow" centerX="50" centerY="50" fill="BLACK"  radius="20" layoutY="50"></Circle>
  <Circle fx:id="red" centerX="50" centerY="50" fill="BLACK"  radius="20"  layoutY="100"></Circle>
